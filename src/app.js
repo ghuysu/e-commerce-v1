@@ -79,9 +79,9 @@ app.use((error, req, res, next) => {
 });
 
 
-mongoose.connect("mongodb+srv://daogiahuysu:HuyUyen-07021011@cluster0.ibftatx.mongodb.net/e-commerce")
+mongoose.connect(`mongodb+srv://${process.env.USERNAME}:${process.env.PASSWORK}@cluster0.ibftatx.mongodb.net/${process.env.DATABASE}`)
     .then(connection => {
-        const server = app.listen(8080);
+        const server = app.listen(process.env.HOST);
         console.log("CONNECTED MONGODB");
     })
     .catch(err => {
