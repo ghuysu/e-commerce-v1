@@ -13,7 +13,7 @@ The primary objective of this E-Commerce project is to develop a robust and scal
 - **Postman**: API development and testing tool.
 - **Multer**: Middleware for handling multipart/form-data, used primarily for file uploads.
 - **Node mailer**: Used to send transactional emails, such as order confirmations and password resets.
-- **VNPay**: 
+- **VNPay**: Integration with VNPay payment gateway for secure online payments.
 
 ## Key Features
 
@@ -49,3 +49,5 @@ The primary objective of this E-Commerce project is to develop a robust and scal
 ## Contact Information
 - **Email**: daogiahuysu@gmail.com
 - **Facebook**: [Gia Huy Dao](https://www.facebook.com/ghuy.1011)
+
+## View E Commerce v2 [Here](https://github.com/ghuysu/e-commerce-v2)
