@@ -4,8 +4,8 @@ const brycpt = require("bcryptjs");
 const transporter = nodeMailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'daogiahuysu@gmail.com',
-        pass: 'finszjthxcxchzho',
+        user: 'youremail',
+        pass: 'yourpass',
     }
 });
 
